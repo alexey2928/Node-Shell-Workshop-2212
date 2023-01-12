@@ -5,7 +5,7 @@ const ls = (done) => {
     if (err) {
       throw err;
     } else {
-      done(files.join("\n"));
+      done(files.join("\t"));
     }
   });
 };
